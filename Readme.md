@@ -9,6 +9,11 @@ Ce projet est divisé en deux parties :
 2. **Fonction de hachage** : La deuxième partie utilise une fonction de hachage.
 - Les fichiers tp1hachage.c,triehachage.h,triehachageimentation.c
 
+## Explication des fichiers
+- Les fichiers tp1matrice.c et tp1hachage.c contiennent la fonction main.
+- Les fichiers triehachage.h et triematrice.h contiennent la définition des types et les signatures des fonctions.
+- Les fichiers triematriceimplementation.c et triehachageimplementation.c contiennent l'implémentation des fonctions.
+
 ## Exécution du projet
 
 ### 1. Utilisation de la structure de données matricielle
@@ -49,3 +54,7 @@ Cela supprimera tous les fichiers exécutables et objets créés lors de la comp
 ## Remarque
 - Assurez-vous d'avoir `gcc` installé sur votre machine pour compiler le projet.
 - Ce projet a été testé sous un environnement Windows, les commandes peuvent légèrement différer sous un autre système d'exploitation.
+- L'insertion des mots se fait dans le trie.
+- L'insertion des préfixes se fait dans trieinsertPrefixes.
+- L'insertion des suffixes se fait dans trieinsertSuffixes.
+- L'insertion des facteurs se fait dans trieinsertFactors.
